@@ -21,20 +21,5 @@ config = {
             'height': 128,
             'width': 128
         }
-    },
-    'viewmodes': {
-        'thumbnail': {
-            'skin.confluence': 500,
-            'skin.aeon.nox': 551,
-            'skin.confluence-vertical': 500,
-            'skin.jx720': 52,
-            'skin.pm3-hd': 53,
-            'skin.rapier': 50,
-            'skin.simplicity': 500,
-            'skin.slik': 53,
-            'skin.touched': 500,
-            'skin.transparency': 53,
-            'skin.xeebo': 55,
-        }
     }
 }
