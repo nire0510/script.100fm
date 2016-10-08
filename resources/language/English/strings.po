@@ -1,6 +1,6 @@
 # Kodi Media Center language file
 # Addon Name: 100FM Radius Digital
-# Addon id: plugin.audio.100fm
+# Addon id: script.100fm
 # Addon Provider: nire0510
 msgid ""
 msgstr ""
