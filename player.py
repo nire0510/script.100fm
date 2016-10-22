@@ -83,7 +83,7 @@ class PlayerWindow(xbmcgui.WindowDialog):
         record = xbmcgui.ControlImage(1540, -70, 340, 340,
                                       'special://home/addons/{0}/resources/media/record.png'.format(ADDON_ID))
         # pointer
-        pointer = xbmcgui.ControlImage(1890, 20, 30, 200,
+        pointer = xbmcgui.ControlImage(1885, 10, 30, 200,
                                        'special://home/addons/{0}/resources/media/pointer.png'.format(ADDON_ID))
         # channel name
         self.channel = xbmcgui.ControlImage(1640, 60, 120, 50, '')
@@ -129,7 +129,7 @@ class PlayerWindow(xbmcgui.WindowDialog):
         self.pause.setVisibleCondition('[Player.Playing]', True)
 
         # set animations:
-        pointer.setAnimations([('Conditional', 'effect=rotate end=-30 time=2000 center=1880,0 reversible=true \
+        pointer.setAnimations([('Conditional', 'effect=rotate end=-27 time=2000 center=1895,10 reversible=true \
             condition=Player.Playing')])
         record.setAnimations([('Conditional', 'effect=rotate end=359 time=3000 center=1710,100 loop=True \
             condition=Player.Playing')])
